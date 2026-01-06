@@ -1,2 +1,17 @@
-python-docx
-pip f
+# Manipulação de documentos Word (relatórios, cartas, etc.)
+python-docx>=1.0.0
+
+# Leitura de Excel
+openpyxl>=3.0.0
+
+#Criação de CLI organizada (interface de linha de comando)
+click>=8.1.0
+
+#Tipagem e validação
+typing-extensions>=4.0.0
+
+#Manipulção de dados tabulares (útil para parsing e reconciliação)
+pandas>=2.0.0
+
+#Customização da saída do terminal (cores, tabelas, progress bars e etc.)
+rich>=13.0.0

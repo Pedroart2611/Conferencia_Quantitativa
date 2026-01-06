@@ -1,0 +1,20 @@
+#Todas as dependências principais de execução
+-r requirements.txt
+
+#Framework de testes automatizados
+pytest>=7.0.0
+
+#Verificação de tipos estáticos
+mypy>=1.0.0
+
+#Formatação automátoca de código
+black>=24.0.0
+
+#Linter
+ruff>=0.1.0
+
+#Medição de cobertura de testes
+coverage>=7.0.0
+
+#Hooks para rodar linters e formatadores antes de commits
+pre-commit>=3.0.0
